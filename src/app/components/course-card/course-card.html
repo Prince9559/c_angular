@@ -1,0 +1,16 @@
+<!-- <article>
+    <p>{{title}}</p>
+    <p>Level : {{level}}</p>
+</article> -->
+<article class="course-card">
+  <h3>{{ title }}</h3>
+
+  @if (enrolled) 
+  {
+    <p>You are enrolled.</p>
+  } 
+  @else 
+  {
+    <button (click)="enroll()">Enroll</button>
+  }
+</article>
