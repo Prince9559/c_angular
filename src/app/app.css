@@ -1,6 +1,5 @@
-.active-link
-{
-    background-color: aqua;
-    font-size: 12px;
-    
+body{
+    justify-content: center;
+    display: flex;
+    flex-wrap: wrap;
 }

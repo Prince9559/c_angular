@@ -1,10 +1,12 @@
 import { Component, signal } from '@angular/core';
 import {RouterOutlet } from '@angular/router';
-import { CourseCard } from './components/course-card/course-card';
+import { ButtonComponent } from './components/button-component/button-component';
+import { InputComponent } from './components/input-component/input-component';
+import { RadioComponent } from './components/radio-component/radio-component';
 
 @Component({
   selector: 'app-root',
-  imports: [RouterOutlet,CourseCard],
+  imports: [RouterOutlet,InputComponent],
   templateUrl: './app.html',
   styleUrl: './app.css'
 })
